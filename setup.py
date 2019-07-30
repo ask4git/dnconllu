@@ -9,7 +9,7 @@ setup(
     author_email='ask4git@gmail.com',
     url='https://github.com/ask4git/dnconllu',
     download_url='',
-    install_requires=[],
+    install_requires=['conllu'],
     packages=find_packages(exclude=['docs', 'tests*']),
     keywords=['natural-language-processing'],
     python_requires='>=3',
