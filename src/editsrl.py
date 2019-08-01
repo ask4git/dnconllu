@@ -9,7 +9,6 @@ class SemanticRoleLabeling:
     @staticmethod
     def move_srltag_to_verb(conllu_data_file):
         for tokenlist in parse_incr(conllu_data_file):
-            print(tokenlist)
             print(SemanticRoleLabeling.move_srltag_to_verb_in_sentence(tokenlist).serialize())
 
     @staticmethod
